@@ -1,7 +1,8 @@
 /* GENERAL */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
 .grad1 {
-  background: linear-gradient(135deg, #1e90ff, #ffffff);
+  background: linear-gradient(to right, #1e3c72, #2a5298); /* Blue gradient */
+  color: #ffffff;
 }
 
 * {
@@ -11,6 +12,7 @@
 
 body {
   font-family: "Poppins", sans-serif;
+  font-style:Bold;
   background: #121212;
   background: radial-gradient(circle, rgb(79, 42, 21) 0%, rgb(4, 37, 43) 100%);
 }
@@ -63,7 +65,7 @@ a:hover {
 }
 
 .logo {
-  font-size: 2rem;
+  font-size: 4rem;
   color: white;
 }
 
@@ -86,8 +88,8 @@ a:hover {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  height: 24px;
-  width: 30px;
+  height: 30px;
+  width: 50px;
   cursor: pointer;
 }
 
@@ -169,7 +171,7 @@ section {
 
 #profile {
   display: flex;
-  justify-content: right;
+  justify-content: center;
   align-items: center;
   gap: 5em;
   height: 80vh;
@@ -286,6 +288,8 @@ section {
 .about-para {
   background-color: white;
   font-size: 20px;
+  font-family: Sans-serif;\
+  font-style:italic;
 }
 .about-containers > div {
   width: 100%;
@@ -365,10 +369,12 @@ section {
 .weatherapp {
   font-size: 2vw;
   margin: 0.5rem 0;
+  color:black;
+  font-family:poppins
 }
 
 .weatherapp-des {
-  font-size: 1.5vw;
+  font-size: 1vw;
   margin: 0.5rem 1rem;
 }
 
